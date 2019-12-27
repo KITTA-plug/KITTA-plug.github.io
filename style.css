@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container{
+	max-width:1240px;
+	background-color:#ccc;
+	margin:0 auto;
+}
+.site-neme{
+	font-size:18px;
+	color:#7B7B7B;
+	font:"sans-serif";
+}
+.site-neme h1{
+	padding:15px 0 0 15px;
+}
+.site-neme h1 span{
+	margin-left:10px;
+	color:#FF0004;
+}
+.header{
+	padding:5px 30px 5px 0px;
+	background-color:pink;
+}
+.header-nav ul{
+	display:flex;
+	
+}
+.header-nav ul li{
+	list-style:none;
+	padding:5px 10px;
+	margin-right:20px;
+}
+.header-nav ul li a{
+	display:block;
+	text-decoration:none;
+	transition:all 0.3s;
+}
+.header-nav ul li:hover a{
+	color:aqua;
+	
+}
+.main-container{
+	width:1240px;
+	display:flex;
+}
+.main-left{
+	width:70%;
+	background-color:lightcyan;
+	box-sizing:border-box;
+	margin-right:20px;
+	position:relative;
+	height:auto;
+}
+.main-left img{
+	width:100%;
+	height:auto;
+}
+.main-left h2{
+	border-left:solid 10px #7CBAC1;
+	margin-left:10px;
+	letter-spacing:3px;
+	padding-left:10px;
+}
+.main-left p{
+	padding:20px;
+	letter-spacing:2px;
+	line-height:28px;
+}
+.kanren{
+	height:400px;
+	margin:0px;
+	padding:0px;
+}
+.kanren h3{
+	font-size:18px;
+	
+}
+.kanren ul{
+	list-style:none;
+	margin:0 0 0 -22px;
+}
+.kanren ul li{
+	float: left;
+	margin-right:5px;
+	padding:0px;
+}
+
+.kanren ul li:hover a{
+	opacity:0.8;
+}
+.kanren img{
+	box-sizing:border-box;
+	width:200px;
+	height:200px;
+	padding:0px;
+}
+.kanrenkiji{
+	font-size:14px;
+	width:200px;
+	
+}
+.share-bottan{
+	width:100%;
+	display:flex;
+	color:white;
+	position:absolute;
+	bottom:0px;
+}
+.twitter{
+	width:33.3%;
+	padding:10px 15px;
+	text-align:center;
+	background-color:green;
+	font-size:18px;
+}
+.twitter a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.twitter:hover{
+	background-color:aqua;
+}
+.line{
+	width:33.3%;
+	padding:10px 15px;
+	text-align:center;
+	background-color:lightgreen;
+	font-size:18px;
+	display:block;
+}
+.line a{
+	text-decoration:none;
+	color:white;
+}
+.line:hover{
+	background-color:lawngreen;
+}
+.facebook{
+	display:block;
+	width:33.3%;
+	padding:10px 15px;
+	text-align:center;
+	background-color:lightblue;
+	font-size:18px;
+}
+.facebook a{
+	text-decoration:none;
+	color:white;
+}
+.facebook:hover{
+	background-color:blue;
+}
+.main-right{
+	width:30%;
+	background-color:lightcyan;
+	box-sizing:border-box;
+	margin-left:10px;
+
+}
+.main-right h2{
+	margin-top:0px;
+	margin-bottom:10px;
+	border-bottom:dotted 2px #dddddd;
+	font-size:18px;
+	color:#666666;
+}
+.ossume img{
+	width:323px;
+	heigth:auto;
+	transition:all 0.2s;
+	
+}
+.ossume img:hover{
+	opacity:0.8;
+}
+.ossume ul{
+	padding:0 20px 0 20px;
+}
+.ossume li{
+	list-style:none;
+	margin-top:10px;
+	
+}
+.ossume h2{
+	margin-left:10px;
+}
+.ossume li a{
+	margin:0px;
+	text-decoration:none;
+	position:relative;
+}
+.text-osusume{
+	width:100%;
+	background-color:rgba(0,0,0,0.6);
+	color:#fff;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	Z-index:10;
+	padding:5px 10px;
+	box-sizing:border-box;
+}
+
+.ninki ul{
+	padding:0 20px 0 20px;
+}
+.ninki ul li{
+	list-style:none;
+	border-bottom:#dddddd dotted 1px;
+	
+}
+.ninki h2{
+	margin-left:10px;
+}
+.ninki a:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.ninki a:hover{
+	background-color:#eeeeee;
+}
+.ninki ul li a{
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	color:#2288bb;
+	transition:all 0.2s;
+}
+.ninki ul li img{
+	width:120px;
+	height:auto;
+	float:left;
+}
+.ninki .text{
+	padding:15px 0px 15px 130px;
+}
+.ninki ul li a span{
+	font-size:12px;
+	display:inline-block;
+}
+
+.footer{
+	width:1240px;
+	background-color:#FF8F8F;
+}
+.copy-right{
+	width:100%;
+	color:#000;
+	text-align:center;
+	margin:0 auto;
+}
